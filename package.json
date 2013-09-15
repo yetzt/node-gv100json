@@ -8,7 +8,7 @@
 	},
 	"bin": {
 		"gv100json": "./gv100json.js"
-	}
+	},
 	"engines": {
 		"node": ">= 0.8.15"
 	},
