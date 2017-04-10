@@ -124,7 +124,7 @@ linereader.eachLine(FILE_IN, function(line) {
 			});
 		break;
 	}
-}).then(function() {
+}, function() {
 	
 	data.gemeinden.forEach(function(d){
 		if (!(d.bundesland in tree)) tree[d.bundesland] = {"bezirke":{}};
